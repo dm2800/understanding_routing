@@ -22,11 +22,6 @@ def repeat(word, num):
     return f'{word * num}'
 
 
-# @app.route('/')
-# def error():
-#     return 'Sorry! No response. Try Again.'
-
-
 if __name__ == "__main__":
     app.run(debug=True)
 
